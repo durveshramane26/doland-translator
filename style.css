@@ -162,3 +162,43 @@ body {
 #instagram,#linkedin,#github {
     color: black;
 }
+
+@media  only screen and (max-width:540px) {
+    html {
+        font-size: 50.5%;
+    }
+    body{
+        letter-spacing: 2px;
+    }
+    .header {
+        flex-wrap: wrap;
+    }
+    .secondary-header {
+        padding-top: 1rem;
+    }
+    .about-translator {
+        padding: 1rem;
+        margin: 0rem;
+    }
+    .about-content {
+        font-size: 2rem;
+        padding: 1rem;
+    }
+    .input-header, .output-header {
+        font-size: 2rem;
+    }
+    .txt {
+        width: 100%;
+        font-size: 2rem;
+    }
+    .sweg-image {
+        max-width: 5rem;
+    }
+    .footer {
+        font-size: 2rem;
+    }
+    .goes-here {
+        display: flex;
+        justify-content: center;
+    }
+}
